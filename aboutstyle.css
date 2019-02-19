@@ -1,0 +1,36 @@
+header {
+	text-align: center;
+}
+
+body {
+	background-color: #E3BAB0;
+}
+
+h1 {
+	font-family: 'Source Code Pro', monospace;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center; 
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+	width: 50%;
+ 	margin: 0 auto;
+ 	margin-top: 50px;
+ 	border:  5px solid white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 50px; 
+
+ }
+
+ div {
+
+ }
