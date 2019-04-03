@@ -1,50 +1,73 @@
-header {
+h1{
+	font-family: 'Source Code Pro', monospace;
+	color: #E3BAB0;
+}
+
+h2{
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+}
+p{
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	font-family: 'Source Code Pro', monospace;
+	border:  3px solid white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 50px; 
+	color: white;
+
+}
+
+nav{
 	background-color: #E3BAB0;
+	font-family: 'Source Code Pro', monospace;
+
+
+}
+
+a:link{
+	color: #E3BAB0;
+}
+
+a{
+	color: white;
+	text-decoration: underline;
+}
+img{
+	margin-top: 50px;
+	border: 2px;
+	border-radius: 50px;
+	width: 250px;
+	height: 250px;
+
+}
+
+header{
+	text-align: center;
+	background-color: white;
+
+}
+
+.About{
+	color: white;
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Source Code Pro', monospace;
-}
-
-h1 {
+.Work{
 	color: white;
-	font-size: 70px;
-	font-family: 'Source Code Pro', monospace;
+	text-align: center;
 }
 
-p {
-	font-size: 18px;
-	line-height: 1.6;
-
+.Contact{
+	color: white;
+	text-align: center;
 }
 
-img {
-	margin-top: 50px;
-	border: 2px solid white;
-	border-radius: 50px;
+body{
+	background-color: #E3BAB0;
 }
 
-ul {
-	padding: 20px;
-
-}
-
-li { 
-display: inline;
-margin: 50px;
-font-family: 'Source Code Pro', monospace;
-color: white;
-font-size: 20px;
-
- }
-
- a{
- 	color: white;
- }
-
- div {
- 	width: 50%;
- 	margin: 0 auto;
- 	margin-top: 50px;
- }
