@@ -1,3 +1,7 @@
+body{
+	background-color: #E3BAB0;
+}
+
 h1{
 	font-family: 'Source Code Pro', monospace;
 	color: #E3BAB0;
@@ -37,7 +41,7 @@ a{
 	color: white;
 	text-decoration: underline;
 }
-img{
+.headerimg{
 	margin-top: 50px;
 	border: 2px;
 	border-radius: 50px;
@@ -67,7 +71,15 @@ header{
 	text-align: center;
 }
 
-body{
-	background-color: #E3BAB0;
+
+.HCimg{
+	width: 250px;
+	height: 300px;
 }
 
+.IHimg{
+	width: 300px;
+	height: 100px;
+	align-items: center;
+	padding-top: 5%;
+}
