@@ -1,4 +1,10 @@
- document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems);
+
+  // A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+   $(document).ready(function(){
+    $('.parallax').parallax();
+  
   });
+ });
